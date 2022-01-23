@@ -21,7 +21,7 @@ class ButtonOperator(bpy.types.Operator):
     
     def execute(self,context):
         for i in range (100):
-            randomScale = randint(0,1)
+            randomScale = randint(0,2)
             x = randint(-10,10)
             y = randint(-10,10)
             z = randint(-10,10)
